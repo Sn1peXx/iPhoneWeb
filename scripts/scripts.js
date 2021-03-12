@@ -228,5 +228,5 @@ document.addEventListener('DOMContentLoaded', () => {
     accordion();
     modal();
     renderCrossSell();
-    
+    amenu('.header__menu', ".header-menu__list", '.header-menu__item', '.header-menu__burger');
 });
